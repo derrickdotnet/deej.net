@@ -1,0 +1,57 @@
+nav{
+    position: fixed;
+    right:5%;
+    top:0%;
+  }
+   nav li{
+    list-style-type: none;
+    margin: 1rem .25rem;
+    text-decoration: underline;
+    text-decoration-thickness: .20rem;
+    font-size: .75rem;
+   }
+   
+   nav li:nth-child(n+2){
+    transform-origin: 0 0 ;
+    transform: rotate(342deg); 
+    margin-left: .5rem;
+   }
+   nav li a{
+    padding-bottom: 0.1rem;
+  
+   }
+   
+   .seperator{
+     height: 2.75rem;
+     border-left:3px solid white;
+     margin-left: 2rem;
+   }
+   
+  .welcome{
+    width:83%;
+    margin: 1rem 0;
+  }
+  
+  .home{
+    width:2.5rem;
+    margin-left: .75rem;
+  }
+  
+  .live{
+    display: block;
+    color:white;
+    font-size: 1.5rem;
+    font-style:italic;
+  }
+  
+  marquee a{
+    padding: 0 4rem;
+    color:white;
+    font-family: 'Century', Serif;
+    text-decoration: none;
+  }
+  
+  footer p{
+    display:inline;
+    font-family: 'Century', Serif;
+   
